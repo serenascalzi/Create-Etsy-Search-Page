@@ -1,0 +1,405 @@
+/* Etsy Search Page CSS */
+* {
+	margin:0;
+	padding:0;
+	font-family:Arial, sans-serif;
+	font-size:15px;
+	color:gray;
+}
+
+html {
+	box-sizing:border-box;
+}
+
+*, *:before, *:after {
+	box-sizing:inherit;
+}
+
+a {
+	text-decoration:none;
+}
+
+ol, ul {
+	list-style:none;
+}
+
+#container {
+	width:1000px;
+	margin:auto;
+}
+
+#container > header {
+	display:flex;
+	width:1000px;
+	margin:20px 0 10px 0;
+	justify-content:space-between;
+}
+
+#container > header > div {
+	display:flex;
+	justify-content:space-between;
+}
+
+#container > header > div > h1 > a {
+	padding-right:20px;
+	font-family:'Times New Roman', serif;
+	font-weight:normal;
+	font-size:40px;
+	color:rgb(243,100,31);
+}
+
+#container > header > div > form > input, button {
+	margin-top:9px;
+	padding:10px;
+	border:1px solid silver;
+	border-radius:3px;
+}
+
+#container > header > div > form > input {
+	width:300px;
+}
+
+#container > header > div > form > input:hover {
+	border:1px solid gray;
+}
+
+#container > header > div > form > button {
+	margin-left:-7px;
+	font-weight:bold;
+	color:white;
+	background-color:rgb(243,100,31);
+}
+
+#container > header > div > form > button:hover {
+	background-color:rgba(243,100,31,0.9);
+}
+
+#container > header > div > ul > li {
+	display:inline-block;
+	padding:10px;
+	justify-content:right;
+	font-weight:normal;
+	color:rgb(243,100,31);
+}
+
+#container > header > div > ul > li > img {
+	width:20px;
+}
+
+#sell:hover {
+	text-decoration:underline;
+}
+
+#register:hover {
+	text-decoration:underline;
+}
+
+#signin {
+	margin:0 20px 0 10px;
+	border:1px solid rgb(243,100,31);
+	border-radius:3px;
+}
+
+#signin:hover {
+	background-color:rgba(243,100,31,0.1);
+}
+
+#cart {
+	vertical-align:middle;
+	opacity:0.5;
+	border-left:1px solid silver;
+}
+
+#cart:hover {
+	opacity:0.9;
+}
+
+#container > nav {
+	border-top:1px solid silver;
+	border-bottom:1px solid silver;
+}
+
+#container > nav > ul {
+	display:flex;
+	width:1000px;
+	justify-content:space-between;
+}
+
+#container > nav > ul > li {
+	padding:10px 0;
+}
+
+#container > nav > ul > li:hover {
+	padding-bottom:5px;
+	border-bottom:3px solid rgb(243,100,31);
+}
+
+#related > ol {
+	display:flex;
+	width:1000px;
+	justify-content:space-between;
+}
+
+#related > ol > li {
+	margin:20px 0;
+	padding:10px 5px;
+	border:1px solid silver;
+	border-radius:3px;
+	background-color:rgb(253,171,104)
+}
+
+#related > ol > li:hover {
+	background-color:rgba(253,171,104,0.9)
+}
+
+#related > ol > li.final {
+	background-color:rgb(253,206,137)
+}
+
+#related > ol > li.final:hover {
+	background-color:rgba(253,206,137,0.9)
+}
+
+#container > aside {
+	display:flex;
+	width:250px;
+	float:left;
+	flex-direction:column;
+	justify-content:space-between;
+}
+
+#container > aside > form {
+	border:1px solid silver;
+	border-radius:3px;
+}
+
+#container > aside > form > div {
+	margin:10px;
+	padding:10px;
+	border-bottom:1px solid silver;
+}
+
+#container > aside > form > div:nth-child(13) {
+	border-bottom:none;
+}
+
+#container > aside > form > div > legend {
+	margin-bottom:7px;
+	font-size:13px;
+	font-weight:bold;
+	color:gray;
+}
+
+#container > aside > form > div > ul > li {
+	padding-left:15px;
+	font-size:13px;
+	line-height:20px;
+}
+
+#container > aside > form > div > ul > li:hover {
+	text-decoration:underline;
+}
+
+#container > aside > form > div > p {
+	font-size:13px;
+	line-height:20px;
+	color:rgb(243,100,31);
+}
+
+#container > aside > form > div > p:hover {
+	text-decoration:underline;
+}
+
+#container > aside > form > div > input, label {
+	font-size:13px;
+	line-height:20px;
+}
+
+#container > aside > form > div > label:hover {
+	text-decoration:underline;
+}
+
+#container > aside > form > div > button {
+	padding:10px;
+	border:1px solid silver;
+	border-radius:3px;
+}
+
+#container > aside > form > div > button:hover {
+	border:1px solid gray;
+}
+
+#container > aside > form > div > div > button {
+	padding:10px;
+	border:1px solid silver;
+	border-radius:3px;
+}
+
+#container > aside > form > div > div > button:hover {
+	border:1px solid gray;
+}
+
+#container > aside > form > div > select {
+	width:200px;
+	padding:10px;
+	font-size:13px;
+	border:1px solid silver;
+	border-radius:3px;
+	background-color:white;
+}
+
+#container > aside > form > div > select:hover {
+	border:1px solid gray;
+}
+
+#customlocation {
+	width:150px;
+	padding:10px;
+	border:1px solid silver;
+	border-radius:3px;
+}
+
+#customlocation:hover {
+	border:1px solid gray;
+}
+
+#customprice {
+	width:75px;
+	padding:10px;
+	font-size:13px;
+	border:1px solid silver;
+	border-radius:3px;
+}
+
+#customprice:hover {
+	border:1px solid gray;
+}
+
+#container > main {
+	display:flex;
+	width:750px;
+	flex-wrap:wrap;
+	justify-content:space-between;
+}
+
+#product {
+	position:relative;
+	display:block;
+	width:170px;
+	margin:0 0 40px 15px;
+}
+
+#product > a > img {
+	border-radius:3px;
+}
+
+#product > a > img {
+	border-radius:3px;
+}
+
+#product > a > img:hover {
+	box-shadow:-1px -1px 1px 1px rgba(224,224,224,0.5);
+}
+
+#overlay {
+	position:absolute;
+	top:5px;
+	right:5px;
+	width:20px;
+	opacity:0;
+}
+
+#overlay:hover {
+	opacity:0.9;
+}
+
+#product > a > h2 {
+	width:170px;
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	font-family:Arial, sans-serif;
+	font-size:15px;
+	font-weight:normal;
+	color:gray;
+}
+
+#product > a > h3 {
+	width:170px;
+	font-size:15px;
+	font-weight:bold;
+	color:gray;
+}
+
+#product > a > h4 {
+	width:170px;
+	margin:5px 0;
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	font-size:13px;
+	font-weight:normal;
+	color:silver;
+}
+
+#similar {
+	position:absolute;
+	top:225px;
+	font-size:13px;
+	color:rgb(243,100,31);
+	opacity:0;
+}
+
+#similar:hover {
+	opacity:1;
+}
+
+#container > footer {
+	display:block;
+	clear:both;
+	margin:0 0 20px 265px;
+	text-align:left;
+}
+
+#container > footer > table > th, td {
+	padding:5px;
+	width:225px;
+}
+
+#container > footer > ol {
+	display:flex;
+}
+
+#container > footer > ol > li {
+	margin:10px 0 20px 0;
+	padding:10px;
+	font-weight:bold;
+	border:1px solid silver;
+	border-radius:3px;
+	background-color:rgba(224,224,224,0.1);
+}
+
+#container > footer > ol > li:nth-child(1) {
+	background-color:rgba(224,224,224,0.3);
+}
+
+#container > footer > ol > li:nth-child(2) {
+	border:1px solid gray;
+	background-color:rgba(224,224,224,0.5);
+}
+
+#container > footer > ol > li:nth-child(10) {
+	background-color:rgba(224,224,224,0.3);
+}
+
+#container > footer > ol > li:hover {
+	background-color:rgba(224,224,224,0.3);
+}
+
+.shops {
+	text-decoration:underline;
+}
+
+.more:hover {
+	text-decoration:underline;
+}

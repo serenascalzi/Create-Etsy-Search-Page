@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Whiskey | Etsy</title>
+	<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+	<!-- Container -->
+	<div id="container">
+		<!-- Header -->
+		<header>
+			<div id="leftheader">
+				<h1><a href="https://www.etsy.com/search?q=whiskey">Etsy</a></h1>
+				<form>
+					<input id="search" type="text" name="search" placeholder="whiskey" />
+					<button type="submit">Search</button>
+				</form>
+			</div>
+			<div id="rightheader">
+				<ul>
+					<li id="sell">Sell on Etsy</li>
+					<li id="register">Register</li>
+					<li id="signin">Sign in</li>
+					<li id="cart"><img src="assets/cart.png" /><p>Cart</p></li>
+				</ul>
+			</div>
+		</header>
+		<!-- Navigation -->
+		<nav>
+			<ul>
+				<li>Jewelry & Accessories</li>
+				<li>Clothing & Shoes</li>
+				<li>Home & Living</li>
+				<li>Wedding & Party</li>
+				<li>Toys & Entertainment</li>
+				<li>Art & Collectibles</li>
+				<li>Craft Supplies & Tools</li>
+				<li>Vintage</li>
+			</ul>
+		</nav>
+		<!-- Navigation -->
+		<div id="related">
+			<ol>
+				<li>whiskey decanter</li>
+				<li>whiskey glasses</li>
+				<li>whiskey barrel</li>
+				<li>whiskey stones</li>
+				<li>whiskey shirt</li>
+				<li>whiskey</li>
+				<li>scotch</li>
+				<li>whiskey dispenser</li>
+				<li class="final">bourbon</li>
+				<li class="final">beer</li>
+			</ol>
+		</div>
+		<!-- Sidebar -->
+		<aside>
+			<form>
+				<div id="categories">
+					<legend>All categories</legend>
+					<ul>
+						<li>Home & Living</li>
+						<li>Art & Collectibles</li>
+						<li>Weddings</li>
+						<li>Clothing</li>
+					</ul>
+					<p>+ Show more</p>
+				</div>
+				<div id="shipping">
+					<legend>Shipping</legend>
+					<input id="free" type="checkbox" name="shipping" value="free" />
+					<label for="free">Free Shipping</label><br />
+					<input id="one" type="checkbox" name="shipping" value="one" />
+					<label for="one">Ready to ship in 1 business day</label><br />
+					<input id="three" type="checkbox" name="shipping" value="three" />
+					<label for="three">Ready to ship in 3 business days</label>
+				</div>
+				<div id="offers">
+					<legend>Special offers</legend>
+					<input id="sale" type="checkbox" name="offers" value="sale" />
+					<label for="sale">On sale</label>
+				</div>
+				<div id="color">
+					<legend>Color</legend>
+					<input id="black" type="checkbox" name="color" value="black" />
+					<label for="black">Black</label><br />
+					<input id="clear" type="checkbox" name="color" value="clear" />
+					<label for="clear">Clear</label><br />
+					<input id="white" type="checkbox" name="color" value="white" />
+					<label for="white">White</label><br />
+					<input id="brown" type="checkbox" name="color" value="brown" />
+					<label for="brown">Brown</label><br />
+					<input id="red" type="checkbox" name="color" value="red" />
+					<label for="red">Red</label><br />
+					<p>+ Show more</p>
+				</div>
+				<div id="occasion">
+					<legend>Occasion</legend>
+					<input id="wedding" type="checkbox" name="occasion" value="wedding" />
+					<label for="wedding">Wedding</label><br />
+					<input id="birthday" type="checkbox" name="occasion" value="birthday" />
+					<label for="birthday">Birthday</label><br />
+					<input id="housewarming" type="checkbox" name="occasion" value="housewarming" />
+					<label for="housewarming">Housewarming</label><br />
+					<input id="anniversary" type="checkbox" name="occasion" value="anniversary" />
+					<label for="anniversary">Anniversary</label><br />
+					<input id="bachelor" type="checkbox" name="occasion" value="bachelor" />
+					<label for="bachelor">Bachelor party</label><br />
+					<p>+ Show more</p>
+				</div>
+				<div id="holiday">
+					<legend>Holiday</legend>
+					<input id="christmas" type="checkbox" name="holiday" value="christmas" />
+					<label for="christmas">Christmas</label><br />
+					<input id="fathers" type="checkbox" name="holiday" value="fathers" />
+					<label for="fathers">Father's Day</label><br />
+					<input id="valentines" type="checkbox" name="holiday" value="valentines" />
+					<label for="valentines">Valentine's Day</label><br />
+					<input id="patricks" type="checkbox" name="holiday" value="patricks" />
+					<label for="patricks">St. Patrick's Day</label><br />
+					<input id="mothers" type="checkbox" name="holiday" value="mothers" />
+					<label for="mothers">Mother's Day</label><br />
+					<p>+ Show more</p>
+				</div>
+				<div id="material">
+					<legend>Material</legend>
+					<input id="glass" type="checkbox" name="material" value="glass" />
+					<label for="glass">Glass</label><br />
+					<input id="metal" type="checkbox" name="material" value="metal" />
+					<label for="metal">Metal</label><br />
+					<input id="ceramic" type="checkbox" name="material" value="ceramic" />
+					<label for="ceramic">Ceramic</label><br />
+					<input id="wood" type="checkbox" name="material" value="wood" />
+					<label for="wood">Wood</label><br />
+					<input id="cork" type="checkbox" name="material" value="cork" />
+					<label for="cork">Cork</label><br />
+					<p>+ Show more</p>
+				</div>
+				<div id="personal">
+					<legend>Can be personalized</legend>
+					<input id="yes" type="checkbox" name="personal" value="yes" />
+					<label for="yes">Yes</label><br />
+					<input id="no" type="checkbox" name="personal" value="no" />
+					<label for="no">No</label>
+				</div>
+				<div id="location">
+					<legend>Shop location</legend>
+					<input id="anywhere" type="radio" name="location" value="anywhere" checked />
+					<label for="anywhere">Anywhere</label><br />
+					<input id="us" type="radio" name="location" value="us" />
+					<label for="us">United States</label><br />
+					<input id="custlocation" type="radio" name="location" value="custlocation" />
+					<label for="custlocation">Custom</label><br />
+					<input id="customlocation" type="text" name="customlocation" placeholder="Enter location" />
+					<button type="submit">&#x25B6;</button>
+				</div>
+				<div id="type">
+					<legend>Item type</legend>
+					<input id="all" type="radio" name="type" value="all" checked />
+					<label for="all">All items</label><br />
+					<input id="handmade" type="radio" name="type" value="handmade" />
+					<label for="handmade">Handmade</label><br />
+					<input id="vintage" type="radio" name="type" value="vintage" />
+					<label for="vintage">Vintage</label>
+				</div>
+				<div id="price">
+					<legend>Price ($)</legend>
+					<input id="any" type="radio" name="price" value="any" checked />
+					<label for="any">Any price</label><br />
+					<input id="under" type="radio" name="price" value="under" />
+					<label for="under">Under $25</label><br />
+					<input id="lowtomid" type="radio" name="price" value="lowtomid" />
+					<label for="lowtomid">$25 to $50</label><br />
+					<input id="midtohigh" type="radio" name="price" value="midtohigh" />
+					<label for="midtohigh">$50 to $100</label><br />
+					<input id="over" type="radio" name="price" value="over" />
+					<label for="over">Over $100</label><br />
+					<input id="custprice" type="radio" name="price" value="custprice" />
+					<label for="custprice">Custom</label><br />
+					<div id="range">
+						<input id="customprice" type="text" name="customprice" placeholder="Low" />
+						<input id="customprice" type="text" name="customprice" placeholder="High" />
+						<button type="submit">&#x25B6;</button>
+					</div>
+				</div>
+				<div id="gift">
+					<legend>Ordering options</legend>
+					<input id="cards" type="checkbox" name="gift" value="cards" />
+					<label for="cards">Accepts Etsy gift cards</label><br />
+					<input id="wrapped" type="checkbox" name="gift" value="wrapped" />
+					<label for="wrapped">Can be gift-wrapped</label>
+				</div>
+				<div id="ship">
+					<legend>Ship to</legend>
+					<select name="country">
+						<option value="us">United States</option>
+						<option value="canada">Canada</option>
+					</select>
+				</div>
+			</form>
+		</aside>
+		<!-- Body -->
+		<main id="content">
+		</main>
+		<!-- Footer -->
+		<footer>
+			<table>
+				<tr>
+					<th colspan="3">Related to whiskey</th>
+				</tr>
+				<tr>
+					<td>whiskey glasses</td>
+					<td>whiskey gift</td>
+					<td>fathers day gift</td>
+				</tr>
+				<tr>
+					<td>whiskey decanter</td>
+					<td>whiskey decanter set</td>
+					<td>beer gift</td>
+				</tr>
+				<tr>
+					<td>bourbon</td>
+					<td>beer</td>
+					<td>&nbsp;</td>
+				</tr>
+				<tr>
+					<td colspan="3">Looking for shops? <span class="shops">whiskeynweddingbells</span>, <span class="shops">WHISKEYSWHIMS</span>, <span class="shops">WhiskeyandBone</span>. <span class="more">See more.</span></td>
+				</tr>			
+			</table>
+			<ol>
+				<li><</li>
+				<li>1</li>
+				<li>2</li>
+				<li>3</li>
+				<li>4</li>
+				<li>5</li>
+				<li>6</li>
+				<li>7</li>
+				<li>8</li>
+				<li>...</li>
+				<li>250</li>
+				<li>></li>
+			</ol>
+		</footer>
+	</div>
+	<!-- Script -->
+	<script src="items.js"></script>
+	<script src="main.js"></script>
+</body>
+</html>
